@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CEG|Home </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>User Registration Form</div>
+        <div>
+            <form method="POST">
+             <table>
+                <tr>
+                    <td>Enter Your Name:</td> 
+                    <td><input type="text" placeholder="your good name" required> </td>
+                </tr>                
+                <tr>
+                    <td>Enter Your Email id:</td> 
+                    <td><input type="email" placeholder="your email id" required> </td>
+                </tr>
+                <tr>
+                    <td>Enter Your password</td> 
+                    <td><input type="password" required> </td>
+                </tr>
+                <tr>
+                    <td>Select Gender</td> 
+                    <td><input type="radio" name="gender_type" value="male"> Male
+                    <input type="radio" name="gender_type" value="Female"> Female</td>
+                </tr>
+                 <tr>
+                    <td>Select your course:</td> 
+                    <td> <select name="user_course">
+                            <option value="message">Select Course</option>
+                            <option value="mca">MCA</option>
+                            <option value="mba">MBA</option>
+                            <option value="mcom">MCOM</option>
+                            <option value="mbe">MBE</option>
+                             <option value="mme">MME</option>
+                        </select> </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right"><input type="checkbox" value="checked" name="condition"> </td>
+                    <td>Agree terms and conditions</td>
+                </tr>
+                <tr>
+                    <td> <button type="submit">Register</button></td>
+                </tr>
+            </table>
+          </form>
+        </div>
+    </body>
+</html>
