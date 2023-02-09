@@ -4,6 +4,13 @@
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	 version="3.1">
+    <!--Welcome_File_List
+        It's use to change the home page[ any name insted of index.html/ index.jpg
+    -->
+    <welcome-file-list>
+        <welcome-file>home.html</welcome-file> <!--If this  one is not available in the project then it'll go on index-Page -->
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
     
    <!--Servlet Declaration-->
     <servlet>
@@ -14,6 +21,82 @@
         <servlet-name>SecondServlet</servlet-name>
         <servlet-class>com.servlets.SecondServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ThirdServlet</servlet-name>
+        <servlet-class>com.servlets.ThirdServlet</servlet-class>
+    </servlet>
     
    <!--Servlet Mapping-->
     <servlet-mapping>
@@ -22,7 +105,12 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>SecondServlet</servlet-name>
-        <url-pattern>/second</url-pattern>
+        <url-pattern>/second</url-pattern>  
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>ThirdServlet</servlet-name>
+        <url-pattern>/ThirdServlet</url-pattern>
     </servlet-mapping>
        
     

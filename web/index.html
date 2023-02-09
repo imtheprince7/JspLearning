@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CEG|Home </title>
+        <title>CEG | Home </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .form{
+                margin: auto;
+                padding: 100px;
+            }
+        </style>
     </head>
     <body>
-        <div>User Registration Form</div>
-        <div>
-            <form method="POST">
+       
+        <div class="form">
+            <div style="text-align:left">User Registration Form</div>
+            <div></div>
+            <form method="POST" action="ThirdServlet">
              <table>
                 <tr>
                     <td>Enter Your Name:</td> 
-                    <td><input type="text" placeholder="your good name" > </td>
+                    <td><input type="text" placeholder="your good name" name="user_name" > </td>
                 </tr>                
                 <tr>
                     <td>Enter Your Email id:</td> 
-                    <td><input type="email" placeholder="your email id" > </td>
+                    <td><input type="email" placeholder="your email id" name="emailId"> </td>
                 </tr>
                 <tr>
                     <td>Enter Your password</td> 
-                    <td><input type="password" > </td>
+                    <td><input type="password" name="password"> </td>
                 </tr>
                 <tr>
                     <td>Select Gender</td> 
@@ -47,7 +55,8 @@
                 </tr>
                 <tr>
                     <td><a href="first">First Servlet</a></td>
-                    <td><a href="second">SecondServlet</a></td>
+                    <td><a href="second">Second Servlet</a></td>
+                     <td><a href="third">Third Servlet</a></td>
                 </tr>
             </table>
           </form>
