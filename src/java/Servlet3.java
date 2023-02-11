@@ -35,7 +35,8 @@ public class Servlet3 extends HttpServlet {
                 st.setString(2,email);
                 st.setString(3,password);
                 st.executeUpdate();
-                out.println("Successfully Inserted in DB");
+             //   out.println("Successfully Inserted in DB");
+                out.println("data has been inserted successfully");
             }
             catch(ClassNotFoundException | SQLException e){
                 out.println("<h1> e </h1>");
