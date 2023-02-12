@@ -13,6 +13,7 @@ public class JspTags1 {
     1.  Declarative Tag
     2. Scriptlet Tag
     3. Expression Tag
+    4. Directive Tag ( Jsp Directives)
             Declarative Tag:
                 Syntax:  <%!    %>
                 Inside we can declare variable perform opeartion( Bussines Logic) Methods() )
