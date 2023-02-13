@@ -39,7 +39,7 @@ public class Servlet3 extends HttpServlet {
                 out.println("data has been inserted successfully");
             }
             catch(ClassNotFoundException | SQLException e){
-                out.println("<h1> e </h1>");
+                out.println("<h1> The Exception is: e</h1>");
             }
             
             
